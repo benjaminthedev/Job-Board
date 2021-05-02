@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Jobs from './Jobs/Jobs';
 
 function App() {
   return (
     <div className="App">
-    
+      <Jobs />
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
  
