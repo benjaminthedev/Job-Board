@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.job {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 15vw;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.job li {
+  list-style-type: none;
+}

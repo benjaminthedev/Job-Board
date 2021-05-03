@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Leftbuttons from './Leftbuttons';
+import Logo from './Logo';
+import RightButtons from './RightButtons';
+
 
 function Header() {
     return (
-        <div>
-            <div>
-                <h1>This is the headers!</h1>
-            </div>
+        <div className="top__header">
+            <Leftbuttons />
+            <Logo />
+            <RightButtons />    
         </div>
     )
 }

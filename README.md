@@ -1,8 +1,5 @@
+# This is WIP project!! 
 # This is a ReactJS Clone of the amazing Remote OK website.
-
-
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
