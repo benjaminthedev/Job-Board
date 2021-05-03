@@ -22,6 +22,7 @@ export default class AllJobs extends React.Component {
             <li>{job.id}</li>
             <li>{job.company}</li>
             <li>{job.position}</li> 
+            <img src={job.company_logo} alt="Job Logo"/>
             <a href={job.apply_url} target="_blank" rel="noreferrer" >Apply Here</a>
         </ul>
         )}
