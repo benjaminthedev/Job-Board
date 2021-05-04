@@ -1,8 +1,8 @@
 import React from 'react';
 import Leftbuttons from './Leftbuttons';
-import Logo from './Logo';
+import Logo from '../Logo/Logo';
 import RightButtons from './RightButtons';
-
+import './Header.css';
 
 function Header() {
     return (

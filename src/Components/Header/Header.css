@@ -1,0 +1,31 @@
+.top__header {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.buttons__left {
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+    background: lightblue;
+    padding: 0;
+}
+
+.buttons__left li {
+    list-style-type: none;
+}
+
+
+
+ul.buttons__right {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    background: lightgray;
+    padding: 0;
+}
+
+.buttons__right li {
+    list-style-type: none;
+}

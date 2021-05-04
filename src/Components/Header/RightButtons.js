@@ -3,7 +3,7 @@ import React from 'react'
 
 function RightButtons() {
     return (
-        <ul className="buttons__left">
+        <ul className="buttons__right">
            <li><a href="https://remoteok.io/remote-jobs.rss" target="_blank" rel="noreferrer">Remote Health</a></li> 
            <li><a href="https://remoteok.io/api" target="_blank" rel="noreferrer">Post A Job</a></li> 
         </ul>

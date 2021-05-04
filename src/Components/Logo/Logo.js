@@ -1,6 +1,7 @@
 import React from 'react'
 import GoogleFontLoader from 'react-google-font-loader';
 import SearchField from "react-search-field";
+import './Logo.css';
 
 function Logo() {
 
@@ -14,7 +15,7 @@ function Logo() {
                 },
                 {
                 font: 'Roboto Mono',
-                weights: [400, 700],
+                weights: [700],
                 },
             ]}
             subsets={['cyrillic-ext', 'greek']}
@@ -24,13 +25,11 @@ function Logo() {
             <p>work anywhere, live anywhere #OpenSalaries</p>
             
 
-
-
-            <SearchField 
-            placeholder='Search item'
-            
-            />
-
+            <div className='search__form'>
+                <SearchField 
+                    placeholder='Search item'
+                />
+            </div>
 
         </div>
     )

@@ -1,0 +1,9 @@
+.search__form {
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+input.react-search-field-input {
+    height: 22px !important;
+    padding: 5px 0px 0px 10px !important
+}
