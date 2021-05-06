@@ -16,8 +16,6 @@ ul.buttons__left {
     list-style-type: none;
 }
 
-
-
 ul.buttons__right {
     display: flex;
     justify-content: space-between;

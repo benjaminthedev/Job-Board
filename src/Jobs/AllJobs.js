@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import './Jobs.css';
 
 export default class AllJobs extends React.Component {
   state = {
@@ -16,13 +17,17 @@ export default class AllJobs extends React.Component {
 
   render() {
     return (
-    <div className="job">
+    <div className="job__wrapper">
         { this.state.jobs.map(job => 
         <ul>
-            <li>{job.id}</li>
+            <img src={job.company_logo} alt="Job Logo" className="job__logo"/>
+
+
             <li>{job.company}</li>
+            
             <li>{job.position}</li> 
-            <img src={job.company_logo} alt="Job Logo"/>
+            <li>{job.tags}</li> 
+            <li>{job.date}</li>
             <a href={job.apply_url} target="_blank" rel="noreferrer" >Apply Here</a>
         </ul>
         )}

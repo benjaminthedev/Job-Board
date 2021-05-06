@@ -1,0 +1,20 @@
+.job__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job__wrapper ul:nth-child(1) {
+    display: none;
+}
+
+.job__wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-around;
+    background: lightgrey;
+}
+
+.job__logo {
+    width: 10vw;
+}
