@@ -5,12 +5,13 @@ import Header from '../Header/Header';
 function App() {
   return (
     <div className="App">
-    <Header/>
-      <AllJobs />
+    <Header />
+      <ul className="all__jobs">
+        <AllJobs />
+      </ul>
+      
       <div className="App-header">         
-
         <h1>Remote OK! MERN stack / NEXTJS/ GraphQL Build </h1>
-
         <em>Tech Used:</em>
 
         <ul>
